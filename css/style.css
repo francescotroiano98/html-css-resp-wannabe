@@ -149,14 +149,16 @@ img {
         transition: all 2s;
         width: 380px;
         
-
+        
     }
     div.row{
         flex-direction: column;
+        transition: all 2s;
 
     }
     div.row .col{
         width: 100%;
         margin-bottom: 50px;
+        transition: all 2s;
     }
 }
