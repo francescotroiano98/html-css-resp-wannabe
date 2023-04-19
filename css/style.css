@@ -161,4 +161,7 @@ img {
         margin-bottom: 50px;
         transition: all 2s;
     }
+    h1{
+        min-width:380px;
+    }
 }
