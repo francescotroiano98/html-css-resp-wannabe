@@ -127,10 +127,28 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/*SOLUZIONE TABLET*/
+
+ /*SOLUZIONE TABLET*/
 @media screen and (max-width:768px){
     div.container{
         width: 768px;
         transition: all 2s;
+    }
+}
+
+/*SOLUZIONE SMARTPHONE*/
+@media screen and (max-width:480px){
+    div.container{
+        width: 380px;
+        
+
+    }
+    div.row{
+        flex-direction: column;
+
+    }
+    div.row .col{
+        width: 100%;
+        margin-bottom: 50px;
     }
 }
