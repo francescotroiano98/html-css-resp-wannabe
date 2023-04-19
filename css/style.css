@@ -127,18 +127,26 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
- /*SOLUZIONE TABLET*/
-@media screen and (max-width:768px){
+ @media screen and (max-width:1160px){
     div.container{
         width: 768px;
         transition: all 2s;
+        transition-timing-function: linear;
+    }
+}
+ /*SOLUZIONE TABLET*/
+@media screen and (max-width:768px){
+    div.container{
+        width: 480px;
+        transition: all 2s;
+        transition-timing-function: linear;
     }
 }
 
 /*SOLUZIONE SMARTPHONE*/
 @media screen and (max-width:480px){
     div.container{
+        transition: all 2s;
         width: 380px;
         
 
