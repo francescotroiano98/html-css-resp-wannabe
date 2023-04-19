@@ -129,7 +129,7 @@ img {
  ************************************************/
  @media screen and (max-width:1160px){
     div.container{
-        width: 768px;
+        width: 100%;
         transition: all 2s;
         transition-timing-function: linear;
     }
@@ -137,29 +137,25 @@ img {
  /*SOLUZIONE TABLET*/
 @media screen and (max-width:768px){
     div.container{
-        width: 480px;
-        transition: all 2s;
-        transition-timing-function: linear;
+        width: 100%;
     }
 }
 
 /*SOLUZIONE SMARTPHONE*/
 @media screen and (max-width:480px){
     div.container{
-        transition: all 2s;
-        width: 380px;
+        width: 100%;
+        padding: 0px 50px;
         
         
     }
     div.row{
         flex-direction: column;
-        transition: all 2s;
 
     }
     div.row .col{
         width: 100%;
         margin-bottom: 50px;
-        transition: all 2s;
     }
     h1{
         min-width:380px;
